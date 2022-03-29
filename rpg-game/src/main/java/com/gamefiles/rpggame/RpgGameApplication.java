@@ -10,4 +10,5 @@ public class RpgGameApplication {
 		SpringApplication.run(RpgGameApplication.class, args);
 	}
 
+	// Anthony Git test
 }
