@@ -20,7 +20,7 @@ public class Encounter {
     public Encounter() {
         //encounterSetUp();
         System.out.println("You have " + playerCharacter.getPlayerCharacterHealth() + " health");
-        System.out.println("You are fighting a " + enemyEncountered().getName());
+        System.out.println("You are fighting a " + enemyEncountered.getName());
 
         //enemy = enemyType.getEnemy();
 
