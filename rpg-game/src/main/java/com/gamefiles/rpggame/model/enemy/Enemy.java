@@ -10,7 +10,7 @@ import javax.persistence.Id;
 public class Enemy {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
     private String name;
     private int health;
